@@ -13,6 +13,10 @@ Regular build:
 Skipping tests:
 ```mvn package -Dmaven.test.skip=true```
 
+# Running
+
+```java -jar /route/to/my-api.jar```
+
 # Docker
 
 Building image:
@@ -22,10 +26,6 @@ Running container:
 ```docker run -p 8080:8080 my-api:latest```
 
 If successful, app should be exposed at http://localhost:8080
-
-# Running
-
-```java -jar /route/to/my-api.jar```
 
 ## Checking app healthiness
 
