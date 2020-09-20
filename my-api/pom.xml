@@ -6,7 +6,7 @@
 
 	<groupId>uk.co.correvate.hr.devops</groupId>
 	<artifactId>my-api</artifactId>
-	<version>1.0.0.1591234567</version>
+	<version>${env.API_VERSION}-${env.API_EPOCH}</version>
 	<packaging>jar</packaging>
 
 	<dependencies>

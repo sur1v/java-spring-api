@@ -7,11 +7,25 @@
 
 # Building
 
-TBD...
+Regular build:
+```mvn package```
+
+Skipping tests:
+```mvn package -Dmaven.test.skip=true```
+
+# Docker
+
+Building image:
+```docker build -t my-api .```
+
+Running container:
+```docker run -p 8080:8080 my-api:latest```
+
+If successful, app should be exposed at http://localhost:8080
 
 # Running
 
-TBD...
+```java -jar /route/to/my-api.jar```
 
 ## Checking app healthiness
 
